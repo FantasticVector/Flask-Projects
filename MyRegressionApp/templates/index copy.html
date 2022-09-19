@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Regression</title>
+  <meta
+    content="width=device-width, initial-scale=1"
+    name="viewport" />
+  <meta content="Webflow" name="generator" />
+  <link href="/static/style.css" rel="stylesheet"
+    type="text/css" />
+  <script src="/static/webfont.js"
+    type="text/javascript"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: { families: ["Space Grotesk:regular,500,600,700"] },
+    });
+  </script>
+</head>
+
+<body class="body">
+  <div class="main-block">
+    <div class="navigation-bar">
+      <div class="logo">
+        <div class="logo-text">Regression</div>
+      </div>
+      <div class="nav-links">
+        <div class="link">
+          <div class="nav-link-text">Projects
+          </div>
+        </div>
+        <div class="link">
+          <div class="nav-link-text">About Me
+          </div>
+        </div>
+        <div class="link">
+          <div class="nav-link-text">Blog</div>
+        </div>
+      </div>
+    </div>
+    <div class="main-body">
+      <div class="left-body">
+        <div class="upload-data">
+          <img src="/static/upload.png"
+            loading="lazy" sizes="4vw"
+            srcset="/static/upload.png 500w"
+            alt="" class="image-2" />
+          <div class="text-block">Upload Data.
+          </div>
+        </div>
+        <div class="graph">
+          <img src="/static/graph.png"
+            loading="lazy"
+            sizes="(max-width: 991px) 5vw, 4vw"
+            srcset="/static/graph.png 500w" alt=""
+            class="image-3" />
+          <div class="text-block">Graph</div>
+        </div>
+      </div>
+      <div class="right-body">
+        <div class="right-form w-form">
+          <form id="email-form" name="email-form"
+            data-name="Email Form" method="get"
+            class="form-2">
+            <div
+              class="input-fileds target-variable">
+              <label for="name"
+                class="field-label">Target
+                Variable : </label><input
+                type="text"
+                class="variable-text-filed target w-input"
+                maxlength="256" name="target-variable"
+                data-name="target-variable" placeholder=""
+                id="target-variable" />
+            </div>
+            <div class="input-fileds variable">
+              <label for="name-3"
+                class="field-label">Variable :
+              </label><input type="text"
+                class="variable-text-filed variable w-input"
+                maxlength="256" name="variable"
+                data-name="variable"
+                placeholder="" id="name-3" />
+            </div>
+            <div class="input-fileds k-value">
+              <label for="name-2"
+                class="field-label">K Value
+                :</label><input type="text"
+                class="variable-text-filed k-value w-input"
+                maxlength="256" name="k-value"
+                data-name="k-value" placeholder=""
+                id="name-2" />
+            </div>
+            <div class="input-fileds alpha-value">
+              <label for="name-4"
+                class="field-label">Alpha Value
+                :</label><input type="text"
+                class="variable-text-filed alpha-value w-input"
+                maxlength="256" name="alpha"
+                data-name="alpha" placeholder=""
+                id="alpha" />
+            </div>
+            <div
+              class="input-fileds variable-quantity">
+              <label for="name-2"
+                class="field-label">Variable
+                Quantity :</label><input
+                type="text"
+                class="variable-text-filed variable-quantity w-input"
+                maxlength="256"
+                name="variable-quantity"
+                data-name="variable-quantity"
+                placeholder="" id="name-2" />
+            </div>
+            <input type="submit" value="Predict"
+              data-wait="Please wait..."
+              class="submit-button w-button" /><textarea
+              placeholder="Predicted Value will be shown here...."
+              maxlength="5000"
+              id="predicted-value"
+              name="predicted-value"
+              data-name="field"
+              class="textarea w-input"></textarea>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has
+              been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while
+              submitting the form.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
